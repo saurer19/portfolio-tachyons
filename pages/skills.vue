@@ -2,11 +2,8 @@
     <div class="h-100 f1 pa3 pa4-ns bg-white black-70 measure-narrow f3 times">
       <header class="bb b--black-70 pv4">
         <h3 class="f2 fw7 ttu tracked lh-title mt0 mb3 avenir">Gabriel Rivas</h3>
-        <h4 class="f3 fw4 lh-title mt-0">Software Developer</h4>
+        <h4 class="f3 fw4 lh-title mt-0">Skills</h4>
       </header>
-      <section
-        class="pt5 pb4"
-      >I am passionate about technology and truly enjoy the work in this field. My eagerness to learn and desire to gain experience have led me to engage in a wide variety of roles including mobile applications, websites, and back-end development.</section>
     </div>
 </template>
 
