@@ -1,8 +1,9 @@
 <template>
-  <div class="h-100 f1 pa3 pa4-ns bg-white black-70 measure-narrow f3 times">
+  <div class="h-100 f1 pa3 pa4-ns bg-white-80 black-70 measure-narrow f3 times">
     <header class="bb b--black-70 pv4 center tc">
       <img src="/gabe-square.png" class="br-100 h4 w4 dib" />
-      <h3 class="f2 fw7 ttu tracked lh-title mt0 mb3 avenir">Gabriel Rivas</h3>
+      <!-- <h3 class="f2 fw7 ttu tracked lh-title mt0 mb3 avenir">Gabriel Rivas</h3> -->
+      <Header title="Gabriel Rivas"></Header>
       <h4 class="f3 fw4 lh-title mt-0">Software Developer</h4>
       <div class="pv3 ph3 ph5-ns">
         <a
@@ -73,7 +74,12 @@
 </template>
 
 <script>
-export default {};
+import  Header  from "../components/Header";
+export default {
+  components:{
+    Header
+  }
+};
 </script>
 
 <style>
@@ -81,8 +87,6 @@ export default {};
   .pa4-ns {
     padding: 2rem;
   }
-  .bg-white {
-    background-color: rgba(255, 255, 255, 0.9);
-  }
+ 
 }
 </style>

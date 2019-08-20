@@ -19,8 +19,6 @@ export default {
   .pa4-ns {
     padding: 2rem;
   }
-  .bg-white {
-    background-color: rgba(255, 255, 255, 0.9);
-  }
+
 }
 </style>

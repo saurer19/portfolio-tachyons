@@ -1,26 +1,28 @@
 <template>
-    <div class="black-70 measure-narrow f3 times">
-      <header class="bb b--black-70 pv4">
-        <h3 class="f2 fw7 ttu tracked lh-title mt0 mb3 avenir">Gabriel Rivas</h3>
-        <h4 class="f3 fw4 lh-title mt-0">Skills</h4>
-      </header>
-    </div>
+  <div class="bg-white-80 black-70 h-100 times pa3 pa4-ns ">
+    <section class="fl w-100 w-50-ns tc">
+      <Header title="education"></Header>
+    </section>
+    <section class="fl w-100 w-50-ns tc">
+            <Header title="skills"></Header>
+
+    </section>
+  </div>
 </template>
 
 <script>
+import  Header  from "../components/Header";
 export default {
-
-}
+  components:{
+    Header
+  },  
+};
 </script>
 
 <style>
-
 @media screen and (min-width: 30em) {
   .pa4-ns {
     padding: 2rem;
-  }
-  .bg-white {
-    background-color: rgba(255, 255, 255, 0.9);
   }
 }
 </style>

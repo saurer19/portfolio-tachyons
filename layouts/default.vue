@@ -1,6 +1,9 @@
 <template>
-  <div class="background-perfil vh-100 w-100 flex flex-column">
+  <div class="background-perfil min-vh-100 w-100 flex ">
+    <div class="flex w-100 flex-column">
     <nuxt />
+
+    </div>
     <nav class="shadow-1 tc pb3 pa3 fixed bg-white w-100 bottom-0">
         <nuxt-link class="link dim gray b f6 f5-ns dib mr3" to="/" exact>Home</nuxt-link>
         <nuxt-link class="link dim gray b f6 f5-ns dib mr3" to="/experience">Experience</nuxt-link>
